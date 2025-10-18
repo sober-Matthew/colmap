@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置COLMAP的工作路径和相关路径
-COLMAP_WORKSPACE="/data02/zhangwei/colmap/workspace"
+COLMAP_WORKSPACE=""
 DATABASE_PATH="${COLMAP_WORKSPACE}/database.db"
 IMAGES_PATH="${COLMAP_WORKSPACE}/images"
 SPARSE_MODEL_PATH="${COLMAP_WORKSPACE}/sparse"
