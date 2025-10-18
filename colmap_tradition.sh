@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 设置源文件夹、目标文件夹和COLMAP工作空间路径
-SOURCE_DIR="/data02/zhangwei/dataset/jianzhu/承德避暑山庄六合塔/点位图"
-TARGET_DIR="/data02/zhangwei/colmap/jianzhu/images_selected"
-COLMAP_WORKSPACE="/data02/zhangwei/colmap/jianzhu"
+SOURCE_DIR=""
+TARGET_DIR=""
+COLMAP_WORKSPACE=""
 DATABASE_PATH="${COLMAP_WORKSPACE}/database.db"
 IMAGES_PATH="${COLMAP_WORKSPACE}/images"
 SPARSE_MODEL_PATH="${COLMAP_WORKSPACE}/sparse"
