@@ -7,7 +7,7 @@
 
 2,在针对连续帧或者视频抽帧出来的图片可改用sequential_matcher，进行重建。代码见colamp_video，但此方法在处理几千张数据集时时间并未减少多少
 
-3，与2想对，在处理大规模非序列数据可使用 vocab_tree_matcher 或 spatial_matcher 限定候选对，代码见colmap_non-sequential
+3，与2相对，在处理大规模非序列数据可使用 vocab_tree_matcher 或 spatial_matcher 限定候选对，代码见colmap_non-sequential
 
 4，当照片位于多个子文件夹，每个文件夹数量照片较多时，可尝试进行子文件夹独立重建再使用colmap_merged进行融合。代码见colmap_fuse,缺点：当子文件夹直接重回较少时，无法进行重建
 
